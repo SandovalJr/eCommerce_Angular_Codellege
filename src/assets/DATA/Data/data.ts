@@ -102,7 +102,7 @@ const Products = [
 		department: 1,
 		model: 'Moto One Macro 64GB',
 		description:
-			['Sistema Operativo Android 9 Pie', 'Procesador Octa core 2.0 GHz',' cámara triple de 13MP + 2MP (prof) + 2MP (macro) + ToF', ' batería de 4,000 mAh',]
+			['Sistema Operativo Android 9 Pie', 'Procesador Octa core 2.0 GHz',' cámara triple de 13MP + 2MP (prof) + 2MP (macro) + ToF', ' batería de 4,000 mAh'],
 		rating: 4,
 		price: 3999.0,
 		msi: false,

@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.primerNavbar {
+  width: 100%;
+  display: flex;
+  height: 6vh;
+  background: #e4e4e4;
+  justify-content: flex-end;
+  padding-right: 4%;
+  /* align-items: baseline; */
+}
+
+.primerNavbar li {
+  list-style-type: none;
+  width: 10vw;
+}
+
+.primerNavbar li:nth-child(1) {
+  padding: 5px 1vw;
+}
+
+.primerNavbar li:nth-child(2) {
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  height: 100%;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
