@@ -6,12 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
-  public tituloEmpresa: string = 'VESTE';
-
   public NavbarTitulo: Array<string> = [
-    'HOME',
-    'COLLECTION',
-    'LOOKBOOK',
+    'WALTMART',
+    'PRODUCTOS',
     'CUSTOMER CARE',
     'VIST US',
   ];
