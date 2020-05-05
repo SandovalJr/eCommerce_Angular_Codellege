@@ -2,7 +2,7 @@
   <nav>
     <div class="row">
       <div class="col-12">
-        <ul class="primerNavbar"> 
+        <ul class="primerNavbar">
           <li>
             <i class="fi-interface-user mr-2"></i>
             <span>Log In</span>
@@ -14,7 +14,15 @@
           <li>
             <i class="fi-ecommerce-shopping-bag-2"></i>
           </li>
-          
+        </ul>
+      </div>
+    </div>
+    <!-- SEGUNDO NAVBAR -->
+    <div class="row">
+      <div class="col-12">
+        <ul class="segundoNavbar">
+          <li>{{ tituloEmpresa }}</li>
+          <li *ngFor= "let titulo of NavbarTitulo" >{{ titulo }}</li>
         </ul>
       </div>
     </div>
