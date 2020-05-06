@@ -9,11 +9,11 @@
   <!-- COLOCAMOS [] en el src para eliminar la interpolacion de strings -->
     <img [src]="arrivale.img" alt="" />
     <div class="detalles">
-      <div *ngIf="mostrar == false">
+      <div >
         <span>{{ arrivale.model }}</span>
         <span>${{ arrivale.price }}</span>
       </div>
-      <div *ngIf="mostrar != false">
+      <div >
         <span>View Datails</span>
       </div>
     </div>
