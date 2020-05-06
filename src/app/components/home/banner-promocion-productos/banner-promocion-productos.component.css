@@ -1,0 +1,21 @@
+#bannerpromocion {
+  width: 100%;
+  height: 60vh;
+  background: #000;
+}
+
+.imagenes {
+  background-color: #0000;
+  padding: 5px 10px 5px 10px;
+  margin: 50px;
+  float: left;
+  width: 35%;
+  height: 100%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 75%;
+  margin-left: 22%;
+}

@@ -5,6 +5,9 @@
   height: 20vh;
 }
 
+#GetOnList > p {
+  font-size: 22px;
+}
 #email {
   display: inline-block;
   width: 20%;
