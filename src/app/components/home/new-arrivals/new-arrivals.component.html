@@ -1,15 +1,19 @@
 <h3 class="text-center">NEW ARRIVALS</h3>
 <div class="arrival">
-  <div class="cardArrival">
-    <div class="row">
-      <img src="../../../../assets/DATA/img/2-1img.JPG" alt="" />
-    </div>
+  <div
+    *ngFor="let arrivale of ArrivalProducts"
+    class="cardArrival"
+    (mouseover)="MostrarDiv()"
+    (mouseleave)="QuitarDiv()"
+  >
+  <!-- COLOCAMOS [] en el src para eliminar la interpolacion de strings -->
+    <img [src]="arrivale.img" alt="" />
     <div class="detalles">
-      <div class="">
-        <span>Nombre Producto:</span>
-        <span>Precio:</span>
+      <div *ngIf="mostrar == false">
+        <span>{{ arrivale.model }}</span>
+        <span>${{ arrivale.price }}</span>
       </div>
-      <div>
+      <div *ngIf="mostrar != false">
         <span>View Datails</span>
       </div>
     </div>
