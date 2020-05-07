@@ -19,3 +19,20 @@ img {
   height: 75%;
   margin-left: 22%;
 }
+
+.banner {
+  margin-top: 100px;
+  background: #242323;
+  /* height: 10vh; */
+}
+
+.banner > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner > div img {
+  height: 365px;
+  width: 365px;
+}
