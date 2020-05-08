@@ -14,11 +14,12 @@ import { SmartPhonesComponent } from './components/products/smart-phones/smart-p
 import { FotografiaComponent } from './components/products/fotografia/fotografia.component';
 import { LineaBlancaComponent } from './components/products/linea-blanca/linea-blanca.component';
 import { AllProductsComponent } from './components/products/all-products/all-products.component';
+import { VistUsComponent } from './components/home/vist-us/vist-us.component';
 
 // iconos
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, CarrouselComponent, NewArrivalsComponent, GetOnListComponent, BannerPromocionProductosComponent, FooterComponent, BlackFooterComponent, SmartPhonesComponent, FotografiaComponent, LineaBlancaComponent, AllProductsComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, CarrouselComponent, NewArrivalsComponent, GetOnListComponent, BannerPromocionProductosComponent, FooterComponent, BlackFooterComponent, SmartPhonesComponent, FotografiaComponent, LineaBlancaComponent, AllProductsComponent, VistUsComponent],
   // todo lo que tenga la palabra modulos 
   imports: [BrowserModule],
   providers: [],

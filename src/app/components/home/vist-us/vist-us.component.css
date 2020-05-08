@@ -1,0 +1,38 @@
+h3 {
+  text-align: center;
+}
+
+div > span > ul > li {
+  list-style-type: none;
+}
+
+div {
+  background: #f5f3f2;
+  height: 30%;
+}
+* {
+  padding: 0;
+}
+
+#mapa {
+  display: block;
+  margin-left: 50%;
+  margin-top: -18%;
+  padding-bottom: 5%;
+}
+
+#texto {
+  display: inline-block;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+* {
+  overflow: hidden;
+}
+
+#texto_about {
+  display: block;
+  margin-left: 34%;
+  padding-bottom: 15px;
+}
