@@ -1,1 +1,12 @@
-<p>linea-blanca works!</p>
+<div class="row">
+  <div class="col-3 m-auto" *ngFor="let PLB of productsShowLN">
+    <div class="tarjeta">
+      <div>
+        <img [src]="PLB.img" alt="" />
+        <span>Mostrar Detalles</span>
+      </div>
+      <span>Nombre Producto</span>
+      <span>Precio</span>
+    </div>
+  </div>
+</div>
