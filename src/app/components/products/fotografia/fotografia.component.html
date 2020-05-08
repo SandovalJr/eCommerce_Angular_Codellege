@@ -1,1 +1,13 @@
-<p>fotografia works!</p>
+<div class="row">
+    <div class="col-3 m-auto" *ngFor="let camaras of productsShowCamaras">
+      <div class="tarjeta">
+        <div>
+          <img [src]="camaras.img" alt="" />
+          <span>Mostrar Detalles</span>
+        </div>
+        <span>Nombre Producto</span>
+        <span>Precio</span>
+      </div>
+    </div>
+  </div>
+  
