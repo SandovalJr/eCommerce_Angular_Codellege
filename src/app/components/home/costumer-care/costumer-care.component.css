@@ -1,0 +1,48 @@
+div {
+  width: 100%;
+  height: 48vh;
+  background: #f5f3f2;
+}
+div > p {
+  transform: translateX(50%) translateY(50%);
+  text-align: center;
+}
+
+#texto_fomulario {
+  margin-left: 17%;
+  margin-top: -1%;
+}
+
+#formulario1 {
+  height: 30%;
+  transform: translateY(37%) translateX(35vw);
+}
+
+#formtextArea {
+  height: 30%;
+
+  transform: translateY(-70%) translateX(51vw);
+}
+
+#information1 {
+  background: white;
+  width: 50%;
+  height: 100vh;
+  margin-top: 4%;
+  transform: translateX(20vw);
+}
+
+#information1 > ul {
+  list-style-type: none;
+}
+#information2 > ul {
+  list-style-type: none;
+}
+
+#information2 {
+  background: white;
+  width: 50%;
+  height: 100vh;
+  margin-top: -46%;
+  transform: translateX(60vw);
+}
