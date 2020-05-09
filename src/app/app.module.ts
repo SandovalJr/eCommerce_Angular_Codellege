@@ -16,11 +16,12 @@ import { LineaBlancaComponent } from './components/products/linea-blanca/linea-b
 import { AllProductsComponent } from './components/products/all-products/all-products.component';
 import { VistUsComponent } from './components/home/vist-us/vist-us.component';
 import { CostumerCareComponent } from './components/home/costumer-care/costumer-care.component';
+import { BuyProductsComponent } from './components/products/buy-products/buy-products.component';
 
 // iconos
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, CarrouselComponent, NewArrivalsComponent, GetOnListComponent, BannerPromocionProductosComponent, FooterComponent, BlackFooterComponent, SmartPhonesComponent, FotografiaComponent, LineaBlancaComponent, AllProductsComponent, VistUsComponent, CostumerCareComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, CarrouselComponent, NewArrivalsComponent, GetOnListComponent, BannerPromocionProductosComponent, FooterComponent, BlackFooterComponent, SmartPhonesComponent, FotografiaComponent, LineaBlancaComponent, AllProductsComponent, VistUsComponent, CostumerCareComponent, BuyProductsComponent],
   // todo lo que tenga la palabra modulos 
   imports: [BrowserModule],
   providers: [],

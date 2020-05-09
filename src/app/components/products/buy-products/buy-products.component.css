@@ -1,0 +1,55 @@
+div {
+  width: 100%;
+  height: 110vh;
+}
+.container > .jumbotron > #imagen > img {
+  margin-top: -115%;
+  margin-left: 20%;
+}
+.container > .jumbotron > #imagen > #txtImg {
+  margin-top: -40%;
+  margin-left: 16.5%;
+}
+
+#BuyProduct {
+  display: block;
+  margin-top: -152%;
+  margin-left: 60%;
+}
+
+#BuyProduct > div > select {
+  margin-left: -5%;
+}
+
+#inicial {
+  /* overflow: hidden; */
+}
+
+#color1 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #000;
+
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+#color2 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: greenyellow;
+
+  border-radius: 50%;
+}
+
+#txtProduct {
+  display: block;
+  margin-top: -63%;
+  margin-left: 60%;
+}
+
+#txtProduct > div > p {
+  font-size: 13px;
+}

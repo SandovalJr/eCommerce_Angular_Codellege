@@ -29,7 +29,7 @@ div > p {
   width: 50%;
   height: 100vh;
   margin-top: 4%;
-  transform: translateX(20vw);
+  transform: translateX(17vw);
 }
 
 #information1 > ul {
@@ -44,5 +44,5 @@ div > p {
   width: 50%;
   height: 100vh;
   margin-top: -46%;
-  transform: translateX(60vw);
+  transform: translateX(50vw);
 }
