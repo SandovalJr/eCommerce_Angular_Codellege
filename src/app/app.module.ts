@@ -17,13 +17,17 @@ import { AllProductsComponent } from './components/products/all-products/all-pro
 import { VistUsComponent } from './components/home/vist-us/vist-us.component';
 import { CostumerCareComponent } from './components/home/costumer-care/costumer-care.component';
 import { BuyProductsComponent } from './components/products/buy-products/buy-products.component';
+import { NotFoundComponent } from './components/shared/not-found/not-found.component';
+
+// APP ROUTES
+import { APP_ROUTES } from './app.routes';
 
 // iconos
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, CarrouselComponent, NewArrivalsComponent, GetOnListComponent, BannerPromocionProductosComponent, FooterComponent, BlackFooterComponent, SmartPhonesComponent, FotografiaComponent, LineaBlancaComponent, AllProductsComponent, VistUsComponent, CostumerCareComponent, BuyProductsComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, CarrouselComponent, NewArrivalsComponent, GetOnListComponent, BannerPromocionProductosComponent, FooterComponent, BlackFooterComponent, SmartPhonesComponent, FotografiaComponent, LineaBlancaComponent, AllProductsComponent, VistUsComponent, CostumerCareComponent, BuyProductsComponent, NotFoundComponent],
   // todo lo que tenga la palabra modulos 
-  imports: [BrowserModule],
+  imports: [BrowserModule,APP_ROUTES],
   providers: [],
   bootstrap: [AppComponent],
 })
