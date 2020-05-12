@@ -6,6 +6,7 @@ import { LineaBlancaComponent } from './components/products/linea-blanca/linea-b
 import { FotografiaComponent } from './components/products/fotografia/fotografia.component';
 import { VistUsComponent } from './components/home/vist-us/vist-us.component';
 import { CostumerCareComponent } from './components/home/costumer-care/costumer-care.component';
+import { BuyProductsComponent } from './components/products/buy-products/buy-products.component';
 
 const rutas: Routes = [
   { path: '', component: HomeComponent },
@@ -29,6 +30,11 @@ const rutas: Routes = [
     path: 'costumerCare',
     component: CostumerCareComponent,
   },
+  {
+    path: 'buyProducts/:id',
+    component: BuyProductsComponent,
+  },
+
   //   SIEMPRE RUTA DEFAULT
   { path: 'notFound', component: NotFoundComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'notFound' },

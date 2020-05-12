@@ -3,6 +3,7 @@ import { fromEvent, from } from 'rxjs';
 import { ProductsInterface } from 'src/app/interfaces/eCommerce.interfaces';
 import { Products } from './../../../data/data';
 import { take, tap, map } from 'rxjs/operators';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-new-arrivals',
@@ -14,7 +15,7 @@ export class NewArrivalsComponent implements OnInit {
   // vamos a traer el array de productos de la data
   public ArrivalProducts: Array<ProductsInterface> = [];
 
-  constructor() {
+  constructor(private router: Router) {
     this.obtenerNewArrival();
   }
 
@@ -41,6 +42,12 @@ export class NewArrivalsComponent implements OnInit {
         take(3),
         tap((value) => this.ArrivalProducts.push(value))
       )
-      .subscribe((value) => console.log(value));
+      .subscribe((value) => console.log(this.ArrivalProducts));
+  }
+
+  GetIdToChangeScreen(id: number) {
+    console.log(`EL ID DEL PRODUCTO ES ${id}`);
+    // navigate construye una URL
+    this.router.navigate(['buyProducts', id]);  
   }
 }

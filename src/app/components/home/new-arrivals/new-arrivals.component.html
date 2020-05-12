@@ -6,14 +6,14 @@
     (mouseover)="MostrarDiv()"
     (mouseleave)="QuitarDiv()"
   >
-  <!-- COLOCAMOS [] en el src para eliminar la interpolacion de strings -->
+    <!-- COLOCAMOS [] en el src para eliminar la interpolacion de strings -->
     <img [src]="arrivale.img" alt="" />
     <div class="detalles">
-      <div >
+      <div>
         <span>{{ arrivale.model }}</span>
         <span>${{ arrivale.price }}</span>
       </div>
-      <div >
+      <div (click)="GetIdToChangeScreen(arrivale.id)">
         <span>View Datails</span>
       </div>
     </div>

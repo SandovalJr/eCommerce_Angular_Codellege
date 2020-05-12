@@ -3,6 +3,7 @@ import { ProductsInterface } from 'src/app/interfaces/eCommerce.interfaces';
 import { Products, Departments } from 'src/app/data/data';
 import { from } from 'rxjs';
 import { filter, map, tap } from 'rxjs/operators';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-smart-phones',
@@ -12,7 +13,7 @@ import { filter, map, tap } from 'rxjs/operators';
 export class SmartPhonesComponent implements OnInit {
   public productsShow: Array<ProductsInterface> = [];
 
-  constructor() {
+  constructor(private router: Router) {
     this.GetProducts();
   }
 
@@ -38,5 +39,10 @@ export class SmartPhonesComponent implements OnInit {
         tap((ProdutoActualizado) => this.productsShow.push(ProdutoActualizado))
       )
       .subscribe();
+  }
+
+  public GetIdToChangeScreen(id: number) {
+    // console.log(id);
+    this.router.navigate(['buyProducts', id]);
   }
 }
