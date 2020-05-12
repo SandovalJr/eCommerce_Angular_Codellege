@@ -13,17 +13,17 @@
     <div class="col-6 m-1">
       <h3>{{ product.model }}</h3>
       <p>SKU 00{{ product.id }}</p>
-
       <p>${{ product.price }}</p>
-
       <p>Valoracion: {{ product.rating }}</p>
 
       <label>Cantidad </label>
       <input type="number" class="inputCantidad mb-3" value="1" />
 
       <label class="mb-0">Meses sin intereses</label>
-      <select class="mt-2 " *ngIf="product.msi">
-          <option *ngFor="let meses of product.meses" [value]="meses">{{meses}}</option>
+      <select class="mt-2" *ngIf="product.msi">
+        <option *ngFor="let meses of product.meses" [value]="meses">{{
+          meses
+        }}</option>
       </select>
 
       <button type="button" class="btn btn-outline-success mt-4">
